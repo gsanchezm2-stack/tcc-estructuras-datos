@@ -1,0 +1,111 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 7
+
+=== GRAFO (no dirigido, sin lazos, sin aristas repetidas) ===
+Estructura no lineal: vértices conectados por aristas. Los identificadores de vértice son únicos.
+Cantidad de vértices (1-20): 5
+Identificador del vértice #1: A
+Identificador del vértice #2: B
+Identificador del vértice #3: A
+  [Error] El identificador "A" ya existe; debe ser único.
+Identificador del vértice #3: C
+Identificador del vértice #4: D
+Identificador del vértice #5: E
+Cantidad de aristas (0-10): 3
+Arista #1:
+  Vértice origen: A
+  Vértice destino: A
+  [Error] No se permiten lazos (un vértice conectado consigo mismo).
+Arista #1:
+  Vértice origen: A
+  Vértice destino: Z
+  [Error] El vértice "Z" no existe. Existentes: [A, B, C, D, E]
+  Vértice destino: B
+  Arista agregada: A - B
+Arista #2:
+  Vértice origen: A
+  Vértice destino: B
+  [Error] La arista A - B ya existe.
+Arista #2:
+  Vértice origen: B
+  Vértice destino: C
+  Arista agregada: B - C
+Arista #3:
+  Vértice origen: A
+  Vértice destino: E
+  Arista agregada: A - E
+Vértices: 5, Aristas: 3 (no dirigido, sin lazos)
+Lista de adyacencia:
+  A -> B, E
+  B -> A, C
+  C -> B
+  D -> (sin vecinos)
+  E -> A
+Matriz de adyacencia:
+             A     B     C     D     E
+       A     0     1     0     0     1
+       B     1     0     1     0     0
+       C     0     1     0     0     0
+       D     0     0     0     0     0
+       E     1     0     0     0     0
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 4
+Vértice inicial del recorrido: E
+  Recorrido en anchura (BFS) desde E: E -> A -> B -> C
+  Vértices NO alcanzables desde E: [D]
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 5
+Vértice inicial del recorrido: A
+  Recorrido en profundidad (DFS) desde A: A -> B -> C -> E
+  Vértices NO alcanzables desde A: [D]
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 3
+Vértice a consultar: Z
+  [Error] El vértice "Z" no existe. Existentes: [A, B, C, D, E]
+Vértice a consultar: B
+  Vecinos de B: [A, C]
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 2
+  Vértice origen: D
+  Vértice destino: C
+  Arista agregada: D - C
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 4
+Vértice inicial del recorrido: A
+  Recorrido en anchura (BFS) desde A: A -> B -> E -> C -> D
+  Todos los vértices son alcanzables.
+
+1. Agregar vértice  2. Agregar arista  3. Consultar vecinos  4. Recorrido en anchura  5. Recorrido en profundidad  6. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

@@ -1,0 +1,82 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 4
+
+=== PILA (LIFO: último en entrar, primero en salir) ===
+¿Cuántos datos va a ingresar? (1-100): 3
+Ingrese el dato #1 a apilar: 1
+Ingrese el dato #2 a apilar: 2
+Ingrese el dato #3 a apilar: 3
+  +-------+
+  |     3 |  <-- CIMA (índice 2)
+  |     2 |  índice 1
+  |     1 |  índice 0
+  +-------+
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 3
+  Elemento en la cima: 3
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 2
+  Se retira de la cima: 3
+  +-------+
+  |     2 |  <-- CIMA (índice 1)
+  |     1 |  índice 0
+  +-------+
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 2
+  Se retira de la cima: 2
+  +-------+
+  |     1 |  <-- CIMA (índice 0)
+  +-------+
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 2
+  Se retira de la cima: 1
+  (pila vacía)  cima = -1
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 2
+  [Error] La pila está vacía: no hay elemento que desapilar.
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 3
+  [Aviso] La pila está vacía; no hay cima.
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 1
+Valor a apilar: 9
+  +-------+
+  |     9 |  <-- CIMA (índice 0)
+  +-------+
+
+1. Apilar  2. Desapilar  3. Ver cima  4. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

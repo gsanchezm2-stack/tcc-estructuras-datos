@@ -1,0 +1,100 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 3
+
+=== LISTA (enlazada simple) ===
+Implementación: nodos enlazados; se accede recorriendo desde la cabeza. Permite repetidos.
+¿Cuántos datos va a ingresar? (1-100): 3
+Ingrese el dato #1: 5
+Ingrese el dato #2: 8
+Ingrese el dato #3: 5
+CABEZA -> [5] -> [8] -> [5] -> null
+Posición:    0      1      2         (tamaño = 3)
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 1
+Valor a insertar: 2
+Posición (0-3): 3
+Antes   : CABEZA -> [5] -> [8] -> [5] -> null
+Posición:    0      1      2         (tamaño = 3)
+Después : CABEZA -> [5] -> [8] -> [5] -> [2] -> null
+Posición:    0      1      2      3         (tamaño = 4)
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 1
+Valor a insertar: 3
+Posición (0-4): 77
+  [Error] El valor debe estar entre 0 y 4.
+Posición (0-4): 2
+Antes   : CABEZA -> [5] -> [8] -> [5] -> [2] -> null
+Posición:    0      1      2      3         (tamaño = 4)
+Después : CABEZA -> [5] -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3      4         (tamaño = 5)
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 3
+Valor a eliminar: 99
+Antes   : CABEZA -> [5] -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3      4         (tamaño = 5)
+  El dato 99 no existe; no se eliminó nada.
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 8
+  [Error] El valor debe estar entre 0 y 5.
+Opción: 2
+Valor a buscar: 8
+  Encontrado en la posición 1
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 2
+Valor a buscar: 5
+  Encontrado en la posición 0
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 3
+Valor a eliminar: 42
+Antes   : CABEZA -> [5] -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3      4         (tamaño = 5)
+  El dato 42 no existe; no se eliminó nada.
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 3
+Valor a eliminar: 5
+Antes   : CABEZA -> [5] -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3      4         (tamaño = 5)
+Después : CABEZA -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3         (tamaño = 4)
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 5
+CABEZA -> [8] -> [3] -> [5] -> [2] -> null
+Posición:    0      1      2      3         (tamaño = 4)
+
+1. Insertar  2. Buscar  3. Eliminar  4. Recorrer  5. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

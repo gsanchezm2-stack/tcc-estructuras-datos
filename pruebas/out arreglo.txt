@@ -1,0 +1,83 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 1
+
+=== ARREGLO UNIDIMENSIONAL ===
+Estructura lineal de tamaño fijo; cada elemento se accede por su índice (inicia en 0).
+¿Cuántos datos va a ingresar? (1-100): 0
+  [Error] La cantidad debe ser un entero positivo (mayor que 0).
+¿Cuántos datos va a ingresar? (1-100): -3
+  [Error] La cantidad debe ser un entero positivo (mayor que 0).
+¿Cuántos datos va a ingresar? (1-100): abc
+  [Error] "abc" no es un entero válido. Intente de nuevo.
+¿Cuántos datos va a ingresar? (1-100): 101
+  [Error] La cantidad supera el límite permitido (100).
+¿Cuántos datos va a ingresar? (1-100): 4
+Ingrese el dato #1 (posición 0): 10
+Ingrese el dato #2 (posición 1): 20
+Ingrese el dato #3 (posición 2): x
+  [Error] "x" no es un entero válido. Intente de nuevo.
+Ingrese el dato #3 (posición 2): 30
+Ingrese el dato #4 (posición 3): 20
+Índice : [  0] [  1] [  2] [  3] 
+Valor  :   10    20    30    20  
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 1
+Índice a consultar: 2
+  a[2] = 30
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 1
+Índice a consultar: 9
+  [Error] Índice fuera de rango (válidos: 0-3).
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 2
+Índice a modificar: 2
+Nuevo valor: 99
+  a[2]: 30 -> 99
+Índice : [  0] [  1] [  2] [  3] 
+Valor  :   10    20    99    20  
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 3
+Recorrido secuencial:
+  posición 0 -> 10
+  posición 1 -> 20
+  posición 2 -> 99
+  posición 3 -> 20
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 4
+Índice : [  0] [  1] [  2] [  3] 
+Valor  :   10    20    99    20  
+
+1. Consultar por índice  2. Modificar  3. Recorrer  4. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

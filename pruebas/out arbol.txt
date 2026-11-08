@@ -1,0 +1,103 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 6
+
+=== ÁRBOL BINARIO DE BÚSQUEDA ===
+Estructura no lineal jerárquica. Menores a la izquierda, mayores a la derecha. No admite repetidos.
+¿Cuántos valores va a insertar? (1-100): 5
+Valor #1 a insertar: 50
+Valor #2 a insertar: 30
+Valor #3 a insertar: 70
+Valor #4 a insertar: 30
+  [Error] El valor 30 ya existe; el árbol no admite repetidos. Ingrese otro.
+Valor #4 a insertar: 20
+Valor #5 a insertar: 40
+Raíz: 50   (nodos: 5)
+Jerarquía (der. arriba, izq. abajo; la sangría indica el nivel):
+        70
+  [RAÍZ] 50
+              40
+        30
+              20
+Relaciones padre -> hijos:
+  50 -> izq: 30, der: 70
+  30 -> izq: 20, der: 40
+  20 -> izq: -, der: -
+  40 -> izq: -, der: -
+  70 -> izq: -, der: -
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 2
+Valor a buscar: 40
+  El valor 40 SÍ existe en el árbol.
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 2
+Valor a buscar: 99
+  El valor 99 no existe en el árbol.
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 3
+  Inorden   (izq, raíz, der): 20 30 40 50 70  (queda ordenado)
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 4
+  Preorden  (raíz, izq, der): 50 30 20 40 70 
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 5
+  Postorden (izq, der, raíz): 20 40 30 70 50 
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 1
+Valor a insertar: 60
+  Insertado.
+Raíz: 50   (nodos: 6)
+Jerarquía (der. arriba, izq. abajo; la sangría indica el nivel):
+        70
+              60
+  [RAÍZ] 50
+              40
+        30
+              20
+Relaciones padre -> hijos:
+  50 -> izq: 30, der: 70
+  30 -> izq: 20, der: 40
+  20 -> izq: -, der: -
+  40 -> izq: -, der: -
+  70 -> izq: 60, der: -
+  60 -> izq: -, der: -
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 1
+Valor a insertar: 50
+  [Error] El valor 50 ya existe (repetidos no permitidos).
+
+1. Insertar  2. Buscar  3. Inorden  4. Preorden  5. Postorden  6. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

@@ -1,0 +1,75 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 5
+
+=== COLA (FIFO: primero en entrar, primero en salir) ===
+¿Cuántos datos va a ingresar? (1-100): 3
+Ingrese el dato #1 a encolar: 1
+Ingrese el dato #2 a encolar: 2
+Ingrese el dato #3 a encolar: 3
+  SALE <- FRENTE [1 | 2 | 3] FINAL <- ENTRA   (tamaño 3)
+  Frente = 1, Final = 3
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 3
+  Elemento al frente: 1
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 2
+  Sale por el frente: 1
+  SALE <- FRENTE [2 | 3] FINAL <- ENTRA   (tamaño 2)
+  Frente = 2, Final = 3
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 2
+  Sale por el frente: 2
+  SALE <- FRENTE [3] FINAL <- ENTRA   (tamaño 1)
+  Frente = 3, Final = 3
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 2
+  Sale por el frente: 3
+  (cola vacía)  frente = null, final = null
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 2
+  [Error] La cola está vacía: no hay elemento que desencolar.
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 3
+  [Aviso] La cola está vacía; no hay frente.
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 1
+Valor a encolar: 9
+  SALE <- FRENTE [9] FINAL <- ENTRA   (tamaño 1)
+  Frente = 9, Final = 9
+
+1. Encolar  2. Desencolar  3. Ver frente  4. Mostrar  0. Volver al menú
+Opción: 0
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.

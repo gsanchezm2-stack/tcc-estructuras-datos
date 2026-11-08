@@ -1,0 +1,53 @@
+=========================================
+  TCC - ESTRUCTURAS DE DATOS (Java)
+=========================================
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 8
+
+=== COMPARACIÓN PILA vs COLA (misma secuencia de entrada) ===
+¿Cuántos datos va a ingresar? (1-100): 4
+Ingrese el dato #1: 1
+Ingrese el dato #2: 2
+Ingrese el dato #3: 3
+Ingrese el dato #4: 4
+
+Orden de entrada : 1, 2, 3, 4
+
+Pila:
+  +-------+
+  |     4 |  <-- CIMA (índice 3)
+  |     3 |  índice 2
+  |     2 |  índice 1
+  |     1 |  índice 0
+  +-------+
+Cola:
+  SALE <- FRENTE [1 | 2 | 3 | 4] FINAL <- ENTRA   (tamaño 4)
+  Frente = 1, Final = 4
+
+Orden de salida de la PILA (LIFO): 4, 3, 2, 1
+Orden de salida de la COLA (FIFO): 1, 2, 3, 4
+Explicación: la pila retira primero el último que entró (cima); la cola retira primero el que lleva más tiempo (frente).
+
+----------- MENÚ PRINCIPAL -----------
+1. Arreglo unidimensional
+2. Matriz
+3. Lista
+4. Pila
+5. Cola
+6. Árbol (binario de búsqueda)
+7. Grafo
+8. Comparar pila y cola (misma entrada)
+0. Salir
+Seleccione una opción: 0
+
+Hasta pronto.
